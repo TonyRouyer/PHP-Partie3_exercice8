@@ -7,9 +7,9 @@
 </head>
 <body>
     <?php
-        for($i = 200; $i >= 0; $i= $i - 12){
-            echo '<p> Enfin !!!!. Plus que  ' . $i . ' pas< /p>';
-        }
+        for($i = 200; $i >= 0; $i -= 12){ ?>
+            <p><?= 'Enfin !!!!. Plus que  ' . $i . ' pas' ?></p>
+        <?php }?>
     ?>
 </body>
 </html>
